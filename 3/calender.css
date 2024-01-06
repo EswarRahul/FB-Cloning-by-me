@@ -1,0 +1,32 @@
+.calendar {
+    width: 540px;
+    max-width: 200%;
+    padding: 6px;
+    border:
+      1px solid hsl(210, 69%, 52%);
+    border-radius: 8px;
+    list-style-type: none;
+  }
+  .day {
+    display: grid;
+    place-content: center;
+    border:
+      2px solid hsla(209, 100%, 49%, 0.595);
+    border-radius: 4px;
+    color: white;
+    font-weight: 800;
+
+    aspect-ratio: 1 / 1;
+  }
+  
+  html {
+    margin: 0;
+    padding: 0;
+    background: hsl(210, 18%, 4%);
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    margin: 10;
+    padding: 0;
+  }
